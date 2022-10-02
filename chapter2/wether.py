@@ -76,5 +76,6 @@ if __name__ == '__main__':
     url = 'http://www.weather.com.cn/weather/101270101.shtml'
     html = get_content(url)
     result = get_data(html)
+    print(result)
     write_data(result, 'weather.csv')
             

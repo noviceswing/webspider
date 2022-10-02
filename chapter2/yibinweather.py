@@ -22,6 +22,7 @@ def get_data(html_text):
     data = body.find('div', {'id':'7d'})
     ul = data.find('ul')
     li = ul.find_all('li')
+    print(li)
     for day in li:
         temp = []
         date = day.find('h1').string
