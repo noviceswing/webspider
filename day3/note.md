@@ -9,3 +9,4 @@
 ### 可以利用Request和JSON爬去网络信息
 ### 能尽量用面向对象就面向对象
 ### 写入douban.csv时格式不正确
++ _file.append(temp)
